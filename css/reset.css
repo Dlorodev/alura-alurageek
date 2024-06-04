@@ -1,0 +1,120 @@
+/* CSS Reset */
+
+
+/*dark mode
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #f0f0f0;
+        --secondary-color: #181818;
+    }
+}
+*/
+
+/* margin and padding every tag*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/*avoid igame issues*/
+img,
+picture,
+video,
+iframe,
+figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+/*anchors working like box*/
+a {
+    display: block;
+}
+
+/*anchors inside paragraphs*/
+p a {
+    display: inline;
+}
+
+/*lists whitout points*/
+li {
+    list-style-type: none;
+}
+
+/*scroll behavior*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*deactivate default styles of text tags*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*quotes*/
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/*selected text color*/
+::selection {
+    background-color: var(--selection-color);
+
+}
+
+/*typography and form issues*/
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color: inherit;
+}
+
+/*tables*/
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+
+/*avoiding svg issues*/
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
