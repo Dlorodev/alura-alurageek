@@ -2,6 +2,7 @@ import { servicesProducts } from "../services/product-services.js";
 
 const d = document;
 const productsGrid = d.querySelector('[data-products]');
+const form = d.querySelector('[data-form]');
 
 
 function createCard(id, name, price, img) {
@@ -36,5 +37,15 @@ const render = async () => {
         console.log(error);
     }
 };
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const name = d.querySelector('[data-name]').value;
+    const price = d.querySelector('[data-price]').value;
+    const img = d.querySelector('[data-img]').value;
+
+    servicesProducts.createProduct(name, price, img).then((response) => console.log(response)).catch((error) => console.log(error));
+});
 
 render();

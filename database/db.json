@@ -1,46 +1,58 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Tanjiro Kamado",
       "price": 55,
       "img": "https://kurogami.com/med/img/productos/37/4b/nendoroid-1193-tanjiro-kamado-kimetsu-no-yaiba-01_1.webp"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Zenitsu Agatsuma",
       "price": 40,
       "img": "https://kurogami.com/med/img/productos/82/1f/x_meho840340.webp"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Inosuke Hashibira",
       "price": 39.9,
       "img": "https://kurogami.com/med/img/productos/3f/d9/x_gsc12737.webp"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Nezuko Kamado",
       "price": 75,
       "img": "https://kurogami.com/med/img/productos/54/2b/nendoroid-nezuko-kamado-demonizaion-1948-kimetsu-no-yaiba-1.webp"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Kyojuro Rengoku",
       "price": 78,
       "img": "https://kurogami.com/med/img/productos/4c/42/x_fryu40217.webp"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Mitsuri Kanroji",
       "price": 23,
       "img": "https://kurogami.com/med/img/productos/42/85/hr-fryu40486.webp"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Shinobu Kocho",
       "price": 25,
       "img": "https://kurogami.com/med/img/productos/4c/47/figura-shinobu-kocho-kimetsu-no-yaiba-potetto-1_1.webp"
+    },
+    {
+      "id": "1a43",
+      "name": "Kanao Tsuyuri",
+      "price": "24.90",
+      "img": "https://kurogami.com/med/img/productos/4c/48/figura-kanao-tsuyuri-kimetsu-no-yaiba-potetto-1.webp"
+    },
+    {
+      "id": "f381",
+      "name": "Nendorod Makomo",
+      "price": "75.90",
+      "img": "https://kurogami.com/med/img/productos/2b/0d/nendoroid-1570-makomo-kimetsu-no-yaiba-01.webp"
     }
   ]
 }
