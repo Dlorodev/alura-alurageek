@@ -146,8 +146,12 @@ body {
 .svg__card {
     width: 1.5rem;
     fill: var(--text-color2);
+    transition: all 0.2s ease-in;
 }
 
+.svg__card:hover {
+    fill: #FF7477
+}
 
 
 
