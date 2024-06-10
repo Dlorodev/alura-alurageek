@@ -51,7 +51,7 @@ form.addEventListener('submit', (event) => {
     const price = parseFloat(d.querySelector('[data-price]').value);
     const img = d.querySelector('[data-img]').value;
 
-    servicesProducts.createProduct(name, price, img).then((response) => console.log(response)).catch((error) => console.log(error));
+    servicesProducts.createProduct(name, price, img).then((response) => console.log(response)).catch((error) => console.log(error));   
 });
 
 function addDeleteEventListener(id) {

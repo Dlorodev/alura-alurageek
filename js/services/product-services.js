@@ -1,5 +1,5 @@
 
-const url = 'http://localhost:3000/products';
+const url = 'https://fake-api-alurageek-five.vercel.app/products';
 
 
 const getProducts = () => {
@@ -21,7 +21,7 @@ const createProduct = (name, price, img) => {
 
 
 const deleteProduct = (id) => {
-    return fetch((`http://localhost:3000/products/${id}`), {
+    return fetch((`https://fake-api-alurageek-five.vercel.app/products/${id}`), {
         method: 'DELETE',
         header: {
             'content-type': 'application/json'
